@@ -597,10 +597,10 @@ export const VirtualClassroom = () => {
                                 ? formatTime(session?.startedAt)
                                 : "N/A"}
                             </div>
-                            <div className="flex items-center gap-1">
+                            {/* <div className="flex items-center gap-1">
                               <Users size={12} />
                               {session.participantCount || 0} participants
-                            </div>
+                            </div> */}
                             <div className="flex items-center gap-1">
                               <div className="w-2 h-2 bg-green-500 rounded-full"></div>
                               Active
